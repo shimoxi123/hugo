@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blowfish</title>
-    <link>//localhost:8983/</link>
-    <description>Recent content on Blowfish</description>
+    <title></title>
+    <link>//localhost:3293/</link>
+    <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 </copyright>
-    <lastBuildDate>Sun, 14 Sep 2025 22:04:10 +0800</lastBuildDate><atom:link href="//localhost:8983/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 14 Sep 2025 22:04:10 +0800</lastBuildDate><atom:link href="//localhost:3293/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>测试文章</title>
-      <link>//localhost:8983/posts/my-first-post/</link>
+      <link>//localhost:3293/posts/my-first-post/</link>
       <pubDate>Sun, 14 Sep 2025 22:04:10 +0800</pubDate>
       
-      <guid>//localhost:8983/posts/my-first-post/</guid>
+      <guid>//localhost:3293/posts/my-first-post/</guid>
       <description></description>
       
     </item>
