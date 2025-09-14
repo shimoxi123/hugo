@@ -1,11 +1,11 @@
 disabled = false
 languageCode = "zh-cn"
-languageName = "English"
+languageName = "中文"
 weight = 1
 title = "Blowfish"
 
 [params]
-  displayName = "EN"
+  displayName = "中文"
   isoCode = "zh-cn"
   rtl = false
   dateFormat = "2 January 2006"
