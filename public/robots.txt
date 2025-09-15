@@ -1,3 +1,0 @@
-User-agent: *
-Disallow: /
-Sitemap: //localhost:3293/sitemap.xml
