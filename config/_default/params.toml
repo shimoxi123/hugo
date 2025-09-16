@@ -92,6 +92,7 @@ forgejoDefaultServer = "https://v11.next.forgejo.org" # Forgejo默认服务器
   showWordCount = true # 是否显示字数统计
   # sharingLinks = [ "linkedin", "twitter", "bluesky", "mastodon", "reddit", "pinterest", "facebook", "email", "whatsapp", "telegram", "line"] # 分享链接
   showZenMode = false # 是否显示禅模式
+  showComments = true # 是否显示评论
 
 # -- 列表页面配置 --
 [list]
