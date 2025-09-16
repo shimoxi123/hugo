@@ -22,12 +22,12 @@ disableImageOptimizationMD = false # 是否禁用Markdown图像优化
 disableTextInHeader = false # 是否在页眉中禁用文本
 # backgroundImageWidth = 1200 # 背景图像宽度
 
-# defaultBackgroundImage = "IMAGE.jpg" # 用作背景图像的默认图片
-# defaultFeaturedImage = "IMAGE.jpg" # 用作所有文章特色图像的默认图片
-# defaultSocialImage = "/android-chrome-512x512.png" # 用作社交媒体分享的默认图片（Open Graph和Twitter）
+defaultBackgroundImage = "https://jihulab.com/shimoxijimu/img2/raw/main/pictures/mc_wallpaper_movie_vista_1920x1080_2025_08_29_15_48_18_e28055cb8e5ea88b.webp" # 用作背景图像的默认图片
+defaultFeaturedImage = "IMAGE.jpg" # 用作所有文章特色图像的默认图片
+defaultSocialImage = "/android-chrome-512x512.png" # 用作社交媒体分享的默认图片（Open Graph和Twitter）
 
-# highlightCurrentMenuArea = true # 是否高亮当前菜单区域
-# smartTOC = true # 是否启用智能目录
+highlightCurrentMenuArea = true # 是否高亮当前菜单区域
+smartTOC = true # 是否启用智能目录
 # smartTOCHideUnfocusedChildren = true # 是否隐藏未聚焦的子目录项
 
 fingerprintAlgorithm = "sha512" # 有效值为"sha512"（默认）、"sha384"、"sha256"
@@ -49,15 +49,15 @@ forgejoDefaultServer = "https://v11.next.forgejo.org" # Forgejo默认服务器
 
 # -- 首页配置 --
 [homepage]
-  layout = "page" # 有效选项：page（页面）、profile（个人资料）、hero（英雄）、card（卡片）、background（背景）、custom（自定义）
-  #homepageImage = "IMAGE.jpg" # 用于：hero和card布局
+  layout = "background" # 有效选项：page（页面）、profile（个人资料）、hero（英雄）、card（卡片）、background（背景）、custom（自定义）
+  homepageImage = "https://jihulab.com/shimoxijimu/img2/raw/main/pictures/mc_wallpaper_movie_vista_1920x1080_2025_08_29_15_48_18_e28055cb8e5ea88b.webp" # 用于：hero和card布局
   showRecent = true # 是否显示最近文章
   showRecentItems = 10 # 显示最近文章的数量
   showMoreLink = true # 是否显示"更多"链接
   showMoreLinkDest = "/posts/" # "更多"链接目标页面
   cardView = true # 是否以卡片视图显示文章
   cardViewScreenWidth = true # 是否根据屏幕宽度调整卡片视图
-  layoutBackgroundBlur = false # 仅在布局为background时使用
+  layoutBackgroundBlur = true # 仅在布局为background时使用
   disableHeroImageFilter = false # 仅在布局为hero时使用
 
 # -- 文章页面配置 --
@@ -69,8 +69,8 @@ forgejoDefaultServer = "https://v11.next.forgejo.org" # Forgejo默认服务器
   showDateUpdated = false # 是否显示更新日期
   showAuthor = true # 是否显示作者
   # showAuthorBottom = false # 是否在文章底部显示作者信息
-  showHero = false # 是否显示英雄图像
-  # heroStyle = "basic" # 有效选项：basic（基础）、big（大图）、background（背景）、thumbAndBackground（缩略图和背景）
+  showHero = true # 是否显示英雄图像
+  heroStyle = "background" # 有效选项：basic（基础）、big（大图）、background（背景）、thumbAndBackground（缩略图和背景）
   layoutBackgroundBlur = true # 仅在heroStyle为background或thumbAndBackground时使用
   layoutBackgroundHeaderSpace = true # 仅在heroStyle为background时使用
   showBreadcrumbs = false # 是否显示面包屑导航
@@ -95,8 +95,8 @@ forgejoDefaultServer = "https://v11.next.forgejo.org" # Forgejo默认服务器
 
 # -- 列表页面配置 --
 [list]
-  showHero = false # 是否显示英雄图像
-  # heroStyle = "background" # 有效选项：basic（基础）、big（大图）、background（背景）、thumbAndBackground（缩略图和背景）
+  showHero = true # 是否显示英雄图像
+  heroStyle = "background" # 有效选项：basic（基础）、big（大图）、background（背景）、thumbAndBackground（缩略图和背景）
   layoutBackgroundBlur = true # 仅在heroStyle为background或thumbAndBackground时使用
   layoutBackgroundHeaderSpace = true # 仅在heroStyle为background时使用
   showBreadcrumbs = false # 是否显示面包屑导航
@@ -118,8 +118,8 @@ forgejoDefaultServer = "https://v11.next.forgejo.org" # Forgejo默认服务器
 # -- 分类配置 --
 [taxonomy]
   showTermCount = true # 是否显示术语计数
-  showHero = false # 是否显示英雄图像
-  # heroStyle = "background" # 有效选项：basic（基础）、big（大图）、background（背景）、thumbAndBackground（缩略图和背景）
+  showHero = true # 是否显示英雄图像
+  heroStyle = "background" # 有效选项：basic（基础）、big（大图）、background（背景）、thumbAndBackground（缩略图和背景）
   showBreadcrumbs = false # 是否显示面包屑导航
   showViews = false # 是否显示浏览量
   showLikes = false # 是否显示点赞数
@@ -128,8 +128,8 @@ forgejoDefaultServer = "https://v11.next.forgejo.org" # Forgejo默认服务器
 
 # -- 术语配置 --
 [term]
-  showHero = false # 是否显示英雄图像
-  # heroStyle = "background" # 有效选项：basic（基础）、big（大图）、background（背景）、thumbAndBackground（缩略图和背景）
+  showHero = true # 是否显示英雄图像
+  heroStyle = "background" # 有效选项：basic（基础）、big（大图）、background（背景）、thumbAndBackground（缩略图和背景）
   showBreadcrumbs = false # 是否显示面包屑导航
   showViews = false # 是否显示浏览量
   showLikes = false # 是否显示点赞数

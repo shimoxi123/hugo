@@ -2,8 +2,8 @@
 # 有关每个参数的更多详细信息，请参阅主题文档。
 # https://blowfish.page/docs/getting-started/
 
-# theme = "blowfish" # 取消注释此行以启用主题
-# baseURL = "https://your_domain.com/" # 网站基础URL
+theme = "blowfish" # 取消注释此行以启用主题
+baseURL = "http://h.shimoxi.qzz.io/" # 网站基础URL
 defaultContentLanguage = "zh-cn" # 默认内容语言
 
 # pluralizeListTitles = "true" # 适用于非英语语言的Hugo函数，更多详情请查看 https://gohugo.io/getting-started/configuration/#pluralizelisttitles
@@ -23,6 +23,8 @@ enableEmoji = true # 启用Emoji支持
 
 [imaging]
   anchor = 'Center' # 图像锚点位置
+  quality = 85 # 图像质量
+  resampleFilter = 'CatmullRom' # 重采样过滤器
 
 [taxonomies]
   tag = "tags" # 标签分类
