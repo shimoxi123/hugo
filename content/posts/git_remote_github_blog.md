@@ -7,6 +7,7 @@ tags = ["Git", "Hexo", "部署", "GitHub"]
 showComments = true
 featured = true
 featureImage = "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+slug = "23"
 +++
 
 ## 一、前言

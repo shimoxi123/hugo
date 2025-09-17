@@ -7,6 +7,7 @@ tags = ["markdown"]
 showComments = true
 featured = true
 featureImage = "https://jihulab.com/shimoxijimu/img2/raw/main/pictures/markdown_2025_09_17_15_02_38_473f73d45f526c16.webp"
+slug = "18"
 +++
 
 | 序号 | 说明         | Markdown                    | 预览效果              |

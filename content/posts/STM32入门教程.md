@@ -7,6 +7,7 @@ tags = ["STM32", "Keil", "CubeMX", "ARM"]
 showComments = true
 featured = true
 featureImage = "https://cdn.jsdelivr.net/gh/shimoxi123/img/img/OIP.webp"
+slug = "14"
 +++
 
 ## 一、前言
