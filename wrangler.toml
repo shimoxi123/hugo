@@ -16,6 +16,7 @@ not_found_handling = "404-page"
 [[routes]]
 pattern = "/*"
 preserve_query_string = true
+zone_id = "1e31ee5974338dd74347ecf7a2d7f3fe"
 
 # 性能优化
 [vars]
