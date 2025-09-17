@@ -8,7 +8,7 @@ description = "这是一个测试文章，用于展示 Hexo 的基本功能。"
 showComments = true
 featured = true
 featureImage = "https://cdn.jsdelivr.net/gh/shimoxi123/img/img/MCV_SummerDrop_Hero_DotNet_Homepage_1920x1080.webp"
-slug = "15"
+slug = "99"
 +++
 
 <a href="https://example.com" title="点击访问 Example 网站">Example</a>
