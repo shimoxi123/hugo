@@ -1,9 +1,22 @@
-name = "hugo"
-compatibility_date = "2025-09-14"
+name = "hugo-blog"
+main = "src/index.js"
+compatibility_date = "2025-09-17"
+compatibility_flags = ["nodejs_compat"]
 
 [build]
 command = "chmod a+x build.sh && ./build.sh"
+cwd = "./"
+watch_dir = ["config", "content", "static", "themes", "layouts"]
 
 [assets]
 directory = "./public"
 not_found_handling = "404-page"
+
+# 路由配置
+[[routes]]
+pattern = "/*"
+preserve_query_string = true
+
+# 性能优化
+[vars]
+ENVIRONMENT = "production"

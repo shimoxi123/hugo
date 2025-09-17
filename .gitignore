@@ -1,1 +1,25 @@
-public
+# Hugo构建输出
+public/
+
+# Hugo缓存和资源
+resources/_gen/
+.hugo_build.lock
+
+# 开发工具
+.vscode/
+.idea/
+*.log
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 临时文件
+*.tmp
+*.temp
+
+# Node.js (如果使用)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

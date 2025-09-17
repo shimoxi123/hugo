@@ -1,9 +1,18 @@
-# -- Markup --
-# These settings are required for the theme to function.
+# -- Markdown处理配置 --
+# 这些设置是主题正常工作所必需的。
 
 [goldmark]
   [goldmark.renderer]
-    unsafe = true
+    unsafe = true # 允许原始HTML
+    hardWraps = false # 硬换行
+    xhtml = false # 使用XHTML格式
+
+  [goldmark.parser]
+    autoHeadingID = true # 自动生成标题ID
+    autoHeadingIDType = "github" # 标题ID类型
+    [goldmark.parser.attribute]
+      block = true # 支持块级属性
+      title = true # 支持标题属性
 
   [goldmark.extensions]
     [goldmark.extensions.passthrough]
@@ -13,8 +22,14 @@
         inline = [['\(', '\)']]
 
 [highlight]
-  noClasses = false
+  noClasses = false # 使用CSS类而不是内联样式
+  codeFences = true # 启用代码围栏
+  guessSyntax = true # 自动检测语法
+  lineNos = false # 不显示行号（可在主题中控制）
+  lineNumbersInTable = false # 不在表格中显示行号
+  tabWidth = 4 # Tab宽度
 
 [tableOfContents]
-  startLevel = 2
-  endLevel = 4
+  startLevel = 2 # 目录开始级别
+  endLevel = 4 # 目录结束级别
+  ordered = false # 是否有序列表

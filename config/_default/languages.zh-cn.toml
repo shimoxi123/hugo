@@ -17,6 +17,10 @@ title = "博客" # 网站标题
   # description = "My awesome website" # 网站描述
   # copyright = "Copy, _right?_ :thinking_face:" # 版权信息
 
+  # 头像配置
+  [params.author]
+    image = "https://jihulab.com/shimoxijimu/img2/raw/main/pictures/2025/08/22_13_42_2_6894b49f58cb8da5c80fd8e5.webp" # 作者头像
+
   # -- 首页配置 --
   [params.homepage]
     showRecent = true # 是否显示最近文章
@@ -28,6 +32,7 @@ title = "博客" # 网站标题
     layoutBackgroundBlur = false # 是否启用背景模糊效果
     disableHeroImageFilter = false # 是否禁用首页图像滤镜
 
+# 作者信息配置示例（已注释）
 # [params.author]
 #   name = "Your name here" # 作者姓名
 #   email = "youremail@example.com" # 作者邮箱

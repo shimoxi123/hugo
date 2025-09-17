@@ -2,29 +2,38 @@
 # 有关每个参数的更多详细信息，请参阅主题文档。
 # https://blowfish.page/docs/getting-started/
 
-theme = "blowfish" # 取消注释此行以启用主题
-baseURL = "http://h.shimoxi.qzz.io/" # 网站基础URL
+theme = "blowfish" # 启用主题
+baseURL = "https://h.shimoxi.qzz.io/" # 网站基础URL (使用HTTPS)
 defaultContentLanguage = "zh-cn" # 默认内容语言
 
 # pluralizeListTitles = "true" # 适用于非英语语言的Hugo函数，更多详情请查看 https://gohugo.io/getting-started/configuration/#pluralizelisttitles
 
 enableRobotsTXT = true # 启用robots.txt文件
-summaryLength = 0 # 摘要长度
+summaryLength = 70 # 摘要长度 (优化为70字符)
 
 buildDrafts = false # 是否构建草稿文章
 buildFuture = false # 是否构建未来日期的文章
+buildExpired = false # 是否构建过期内容
+
+# 中文优化配置
+hasCJKLanguage = true # 启用中日韩字符支持，提升中文处理性能
 
 enableEmoji = true # 启用Emoji支持
 
-# googleAnalytics = "G-XXXXXXXXX" # Google Analytics跟踪ID
+# 性能配置
+timeout = "30s" # 构建超时时间
+
+# googleAnalytics = "G-XXXXXXXXX" # Google Analytics跟踪ID
 
 [pagination]
   pagerSize = 100 # 分页大小
 
 [imaging]
   anchor = 'Center' # 图像锚点位置
-  quality = 85 # 图像质量
+  quality = 90 # 图像质量 (提升至90以获得更好质量)
   resampleFilter = 'CatmullRom' # 重采样过滤器
+  hint = 'photo' # 图像优化提示
+  bgColor = '#ffffff' # 背景颜色
 
 [taxonomies]
   tag = "tags" # 标签分类
@@ -33,7 +42,7 @@ enableEmoji = true # 启用Emoji支持
   series = "series" # 系列分类
 
 [sitemap]
-  changefreq = 'daily' # Sitemap更新频率
+  changefreq = 'weekly' # Sitemap更新频率 (优化为weekly)
   filename = 'sitemap.xml' # Sitemap文件名
   priority = 0.5 # Sitemap优先级
 

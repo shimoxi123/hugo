@@ -10,7 +10,7 @@ autoSwitchAppearance = true # 是否自动切换外观
 
 enableA11y = false # 是否启用无障碍访问功能
 enableSearch = true # 是否启用搜索功能
-enableCodeCopy = false # 是否启用代码复制功能
+enableCodeCopy = true # 是否启用代码复制功能
 
 replyByEmail = false # 是否启用邮件回复功能
 
@@ -22,15 +22,16 @@ disableImageOptimizationMD = false # 是否禁用Markdown图像优化
 disableTextInHeader = false # 是否在页眉中禁用文本
 # backgroundImageWidth = 1200 # 背景图像宽度
 
+# 图像配置优化
 defaultBackgroundImage = "https://jihulab.com/shimoxijimu/img2/raw/main/pictures/mc_wallpaper_movie_vista_1920x1080_2025_08_29_15_48_18_e28055cb8e5ea88b.webp" # 用作背景图像的默认图片
-defaultFeaturedImage = "IMAGE.jpg" # 用作所有文章特色图像的默认图片
+# defaultFeaturedImage = "https://jihulab.com/shimoxijimu/img2/raw/main/pictures/2025/08/22_13_44_25_MCV_SummerDrop_Hero_DotNet_Homepage_1920x1080.webp" # 用作所有文章特色图像的默认图片（已注释，使用文章自定义的featureImage）
 defaultSocialImage = "/android-chrome-512x512.png" # 用作社交媒体分享的默认图片（Open Graph和Twitter）
 
 highlightCurrentMenuArea = true # 是否高亮当前菜单区域
 smartTOC = true # 是否启用智能目录
 # smartTOCHideUnfocusedChildren = true # 是否隐藏未聚焦的子目录项
 
-fingerprintAlgorithm = "sha512" # 有效值为"sha512"（默认）、"sha384"、"sha256"
+fingerprintAlgorithm = "sha256" # 有效值为"sha512"（默认）、"sha384"、"sha256" - 使用sha256提升性能
 
 giteaDefaultServer = "https://git.fsfe.org" # Gitea默认服务器
 forgejoDefaultServer = "https://v11.next.forgejo.org" # Forgejo默认服务器
@@ -85,7 +86,7 @@ forgejoDefaultServer = "https://v11.next.forgejo.org" # Forgejo默认服务器
   showReadingTime = true # 是否显示阅读时间
   showTableOfContents = false # 是否显示目录
   # showRelatedContent = false # 是否显示相关内容
-  # relatedContentLimit = 3 # 相关内容显示数量
+  # relatedContentLimit = 3 # 相关内容显示数量
   showTaxonomies = false # 使用showTaxonomies或showCategoryOnly，不能同时使用
   showCategoryOnly = false # 使用showTaxonomies或showCategoryOnly，不能同时使用
   showAuthorsBadges = false # 是否显示作者徽章
